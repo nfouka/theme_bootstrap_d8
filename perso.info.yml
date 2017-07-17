@@ -1,0 +1,30 @@
+name: perso
+type: theme
+description: My Awesome theme
+package: Other
+core: 8.x
+libraries:
+  - perso/global-styling
+ 
+base theme: bootstrap
+
+
+regions:
+  header: 'Top Bar'
+  navigation: 'Navigation'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  page_barchart_left: 'BarChart Left Region'
+  page_user_left: 'UserLogin left'
+  dashboard1 : 'dashboard1 top'
+  dashboard2 : 'dashboard2 medium1'
+  dashboard3 : 'dashboard3 medium2'
+  dashboard4 : 'dashboard4 bottom'
+  chat: 'last article' 
+  mongo: 'Mongo Last View'
+  user_profiler: 'User profiler'
